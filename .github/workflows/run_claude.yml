@@ -1,6 +1,7 @@
 name: Run Claude
 
 on:
+  push:
   workflow_dispatch:    # Allows manual trigger
   schedule:
     - cron: '0 12 * * *'  # Optional daily run at 12:00 UTC
